@@ -16,7 +16,7 @@ MODEL_PATH = os.getenv("MODEL_PATH", "salary_model_pipeline.pkl")
 TFIDF_PATH = os.getenv("TFIDF_PATH", "job_title_tfidf.joblib")
 SVD_PATH = os.getenv("SVD_PATH", "job_title_svd.joblib")
 META_PATH = os.getenv("META_PATH", "preprocessing_meta.joblib")
-API_KEY = os.getenv("NGROK_AUTH_TOKEN", "34nCrCfhGjOZbtZAezzgHnxD7Gb_zVyk1x3HzisCKzQHcV5h")
+API_KEY = os.getenv("API_KEY")
 ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "*")
 
 # ---------------------------
